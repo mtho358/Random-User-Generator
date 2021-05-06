@@ -1,8 +1,10 @@
-package com.coolcats.randomusergeneratorproject;
+package com.coolcats.randomusergeneratorproject.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.coolcats.randomusergeneratorproject.R;
 
 public class MainActivity extends AppCompatActivity {
 
