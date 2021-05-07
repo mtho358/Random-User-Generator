@@ -5,7 +5,7 @@ package com.coolcats.randomusergeneratorproject.model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class User {
+public class UserResponse {
 
     @SerializedName("gender")
     @Expose
@@ -43,6 +43,26 @@ public class User {
     @SerializedName("nat")
     @Expose
     private String nat;
+
+    public UserResponse(String gender, Name name, Location location, String email, Login login,
+                        Dob dob, Registered registered, String phone, String cell, Id id,
+                        Picture picture, String nat) {
+        this.gender = gender;
+        this.name = name;
+        this.location = location;
+        this.email = email;
+        this.login = login;
+        this.dob = dob;
+        this.registered = registered;
+        this.phone = phone;
+        this.cell = cell;
+        this.id = id;
+        this.picture = picture;
+        this.nat = nat;
+    }
+
+
+
 
     public String getGender() {
         return gender;
